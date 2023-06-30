@@ -124,7 +124,7 @@
             echo "<td>" . namaKeputusan($row["a7"]) . "</td>";
             echo "<td>" . namaKeputusan($row["a8"]) . "</td>";
             echo "<td>" . $row["timestamp"] . "</td>";
-            echo "<td>" . $row["id"] . "</td>";
+            echo "<td><a href=index.php?page=pohon_keputusan&action=hapus&id=" . $row["id"] . ">Hapus</a></td>";
             echo "</tr>";
         }
 
@@ -147,12 +147,14 @@ if (isset($_GET['action'])) {
         if (isset($_POST['submit'])) {
             $q = mysqli_query($conn, "insert into dataset(nama_siswa,a1,a2,a3,a4,a5,a6,a7,a8,`timestamp`) 
     values('$_POST[nama_siswa]', '$_POST[a1]', '$_POST[a2]', '$_POST[a3]', '$_POST[a4]', '$_POST[a5]', '$_POST[a6]', '$_POST[a7]', '$_POST[a8]', CURRENT_TIMESTAMP);");
-            // header("Location: index.php?page=pohon_keputusan");
+            echo '<script>window.location.href = "index.php?page=pohon_keputusan";</script>';
         }
     } elseif ($_GET['action'] == 'hapus') {
         $query = mysqli_query($conn, "delete from dataset where id = $_GET[id]");
-        header('Location: index.php?page=pohon_keputusan');
+        echo '<script>window.location.href = "index.php?page=pohon_keputusan";</script>';
     }
+    // header('Location: index.php?page=pohon_keputusan');
+    // echo "Ini sudah di bagian akhir";
 }
 
 ?>
