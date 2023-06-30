@@ -152,8 +152,6 @@ if (isset($_GET['action'])) {
         $query = mysqli_query($conn, "delete from dataset where id = $_GET[id]");
         echo '<script>window.location.href = "index.php?page=pohon_keputusan";</script>';
     }
-    // header('Location: index.php?page=pohon_keputusan');
-    // echo "Ini sudah di bagian akhir";
 }
 
 ?>
