@@ -19,6 +19,7 @@
                             </style>
 
                         </div>
+                        
                         <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="">
                             <li class="nav-item">
                                 <a class="nav-link" id="custom-tabs-one-home-tab" href="index.php?page=beranda" role="tab" aria-controls="custom-tabs-one-home" aria-selected="false" data-toogle="pill">Beranda</a>
@@ -27,7 +28,7 @@
                                 <a class="nav-link" id="custom-tabs-one-profile-tab" href="index.php?page=pohon_keputusan" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="false">Pohon Keputusan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="custom-tabs-one-profile-tab" href="index.php?page=hasil_prediksi" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="false">Hasil Prediksi</a>
+                                <a class="nav-link" id="custom-tabs-one-profile-tab" href="index.php?page=ujiRules" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="false">Uji Rules</a>
                             </li>
                         </ul>
                     </div><!-- /.container-fluid -->
@@ -36,5 +37,5 @@
                 if (isset($_GET['page'])) {
                     if ($_GET['page'] == '' || $_GET['page'] == 'beranda') include "beranda.php";
                     elseif ($_GET['page'] == 'pohon_keputusan') include "pohon_keputusan.php";
-                    elseif ($_GET['page'] == 'hasil_prediksi') include "hasil_prediksi.php";
+                    elseif ($_GET['page'] == 'ujiRules') include "ujiRules.php";
                 } else include "beranda.php";
