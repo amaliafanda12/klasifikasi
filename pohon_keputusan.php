@@ -104,7 +104,6 @@
             <th>A6</th>
             <th>A7</th>
             <th>A8</th>
-            <th>Timestamp</th>
             <th>Action</th>
             <!-- Tambahkan kolom lainnya sesuai kebutuhan -->
         </tr>
@@ -123,7 +122,6 @@
             echo "<td>" . namaKeputusan($row["a6"]) . "</td>";
             echo "<td>" . namaKeputusan($row["a7"]) . "</td>";
             echo "<td>" . namaKeputusan($row["a8"]) . "</td>";
-            echo "<td>" . $row["timestamp"] . "</td>";
             echo "<td><a href=index.php?page=pohon_keputusan&action=hapus&id=" . $row["id"] . ">Hapus</a></td>";
             echo "</tr>";
         }
