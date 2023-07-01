@@ -3,32 +3,33 @@
     <div class="wrapper">
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="container">
+        <div class="" >
             <div class="card">
                 <!-- Content Header (Page header) -->
-                <section class="content-header">
-                    <div class="container-fluid">
+                <section class="content-header" style="background-color: lightblue;">
+                    <div class="container-fluid rounded" style="background-color: #F6F7D7">
                         <div class="row mb-3">
-                            <div class="ms-4">
-                                <h1>Sistem Kepuasan </h1>
+                            <div class="navbar-brand ms-3 mt-2">
+                                <img src="images/logo.png" height="70px">
+                                <!-- <h1>Sistem Prediksi Kepuasan </h1> -->
                             </div>
                             <style>
                                 body {
                                     font-family: 'Font Name', sans-serif;
+
                                 }
                             </style>
 
                         </div>
-                        
-                        <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="">
+                        <ul class="nav mb-3 justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link" id="custom-tabs-one-home-tab" href="index.php?page=beranda" role="tab" aria-controls="custom-tabs-one-home" aria-selected="false" data-toogle="pill">Beranda</a>
+                                <a class="nav-link" href="index.php?page=beranda">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="custom-tabs-one-profile-tab" href="index.php?page=pohon_keputusan" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="false">Pohon Keputusan</a>
+                                <a class="nav-link" href="index.php?page=pohon_keputusan">Pohon Keputusan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="custom-tabs-one-profile-tab" href="index.php?page=ujiRules" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="false">Uji Rules</a>
+                                <a class="nav-link" href="index.php?page=ujiRules">Uji Rules</a>
                             </li>
                         </ul>
                     </div><!-- /.container-fluid -->

@@ -1,10 +1,15 @@
-  <footer class="main-footer">
-      <div class="float-right d-none d-sm-block">
+  <!-- <footer class="page-footer">
+        Copyright Web Kepuasan Siswa
+  </footer> -->
+  <footer class="page-footer font-small blue" style="background-color: #FF165D  ">
 
-      </div>
-      <strong>Copyright Web Kepuasan Siswa
-  </footer>
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2023 Copyright: Web Kepuasan Siswa
+  <!-- <a href=""></a> -->
+</div>
+<!-- Copyright -->
 
+</footer>
   <!-- ./wrapper -->
 
   <!-- jQuery -->
@@ -16,6 +21,5 @@
   <!-- AdminLTE for demo purposes -->
   <!-- <script src="dist/js/demo.js"></script> -->
 
-  </body>
 
   </html>
