@@ -2,8 +2,8 @@
 // Konfigurasi database
 $servername = 'localhost';
 $database = 'klasifikasi';
-$username = 'root';
-$password = 'tmDevFlats0987^(';
+$username = 'serius';
+$password = '';
 
 // Membuat koneksi
 $conn = mysqli_connect($servername, $username, $password, $database);
