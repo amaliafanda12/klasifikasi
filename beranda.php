@@ -11,13 +11,13 @@
                 
                 <!-- Site wrapper -->
                 <div class="container">
-                    <div class="text-center"style=" font-family: Times New Roman">
-                        <h2>SISTEM PREDIKSI PRESTASI AKADEMIK MAHASISWA MENGGUNAKAN METODE DECISION TREE C4.5</h2>
+                    <div class="text-center"style=" font-family: Book Antiqua">
+                        <h2>SISTEM KEPUASAN SISWA TERHADAP KINERJA TENTOR DI CV. IBSI EDUTAMA MENGGUNAKAN ALGORITMA C5.0</h2>
                         <img src='images/logo.png' />
                     </div>
-                    <div class="ms-2">
+                    <div class="text-center"style=" font-family: Book Antiqua">
                         <br>
-                        Aplikasi ini akan menghasilkan informasi perkiraan prestasi akademik mahasiswa baru dari data training yang digunakan adalah data nilai UN, Jurusan, Status pekerjaan, Motivasi dan Prestasi sekolah.
+                        Aplikasi ini akan menghasilkan informasi kepuasan siswa dari pengisian kuisioner.
                         <br>
                         Hasil analisa dikelompokkan menjasi kelas tinggi (predikasi berprestasi tinggi) dan kelas rendah (predikasi berprestasi rendah).
                     </div>

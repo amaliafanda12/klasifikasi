@@ -11,11 +11,11 @@
                         <div class="row mb-3">
                             <div class="navbar-brand ms-3 mt-2">
                                 <img src="images/logo.png" height="70px">
-                                <!-- <h1>Sistem Prediksi Kepuasan </h1> -->
+                                
                             </div>
                             <style>
                                 body {
-                                    font-family: 'Font Name', sans-serif;
+                                    font-family: 'Font Name', Book-antiqua;
 
                                 }
                             </style>

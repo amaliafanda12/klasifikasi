@@ -11,7 +11,7 @@
                     <form action="index.php?page=pohon_keputusan&action=tambah" method="POST">
                         <div class="form-group">
                             <label>Nama</label>
-                            <input type="text" name="nama_siswa" class="form-control" placeholder="masukan nama" required>
+                            <input type="text" name="nama_siswa" class="form-control" placeholder="Masukan nama" required>
                         </div>
                         <!-- <div class="form-group">
                             <label>Nama </label>
