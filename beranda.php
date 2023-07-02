@@ -1,21 +1,35 @@
 <!-- Main content -->
-<section class="content">
+<section class="content" style="background-color: #FF9A00">
 
     <!-- Default box -->
-    <div class="card">
-        <div class="card-body">
+<div class="container">
 
+    <div class="mt-3 card" style="background-color: #F6F7D7">
+        <div class="mt-5 mb-5  card-body"  >
+            
             <body class="hold-transition">
+                
                 <!-- Site wrapper -->
                 <div class="container">
-                    <h1>ini adalah beranda</h1>
-                </div>
-
-                <!-- /.card -->
-
+                    <div class="text-center"style=" font-family: Book Antiqua">
+                        <h2>SISTEM KEPUASAN SISWA TERHADAP KINERJA TENTOR DI CV. IBSI EDUTAMA MENGGUNAKAN ALGORITMA C5.0</h2>
+                        <img src='images/logo.png' />
+                    </div>
+                    <div class="text-center"style=" font-family: Book Antiqua">
+                        <br>
+                        Aplikasi ini akan menghasilkan informasi kepuasan siswa dari pengisian kuisioner.
+                        <br>
+                        Hasil analisa dikelompokkan menjasi kelas tinggi (predikasi berprestasi tinggi) dan kelas rendah (predikasi berprestasi rendah).
+                    </div>
+                
+            </div>
+            
+            <!-- /.card -->
+            
+        </div>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    
+</div>
 </section>
-<!-- /.content -->
-</div>
-<!-- /.content-wrapper -->
-
-</div>
