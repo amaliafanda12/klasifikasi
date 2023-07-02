@@ -19,7 +19,7 @@
                         <br>
                         Aplikasi ini akan menghasilkan informasi kepuasan siswa dari pengisian kuisioner.
                         <br>
-                        Hasil analisa dikelompokkan menjasi kelas tinggi (predikasi berprestasi tinggi) dan kelas rendah (predikasi berprestasi rendah).
+                       
                     </div>
                 
             </div>
