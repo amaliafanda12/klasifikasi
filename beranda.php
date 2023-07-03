@@ -1,5 +1,5 @@
 <!-- Main content -->
-<section class="content" style="background-color: #FF9A00">
+<section class="content" style="background-color: #F6F7D7">
 
     <!-- Default box -->
 <div class="container">

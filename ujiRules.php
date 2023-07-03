@@ -48,7 +48,7 @@
 
 								<center>
 									<form method=POST action=''>
-										<input type='submit' name='submit' value='Hitung Akurasi'>
+										<input type='submit' name='submit' value='Uji Rules'>
 									</form>
 								</center>
 								Jumlah data uji: <?php echo $jumlah; ?>

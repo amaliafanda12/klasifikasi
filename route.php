@@ -10,7 +10,7 @@
                     <div class="container-fluid rounded" style="background-color: #F6F7D7">
                         <div class="row mb-3">
                             <div class="navbar-brand ms-3 mt-2">
-                                <img src="images/logo.png" height="70px">
+                                <img src="images/logo.png" height="40px">
                                 
                             </div>
                             <style>
