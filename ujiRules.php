@@ -40,7 +40,8 @@
 							?>
 								<!-- <p>
 								<form method="post" enctype="multipart/form-data" action="upload.php?data=uji">
-									Opsi: <a href="?menu=uji_rule&act=delete_all" onClick="return confirm('Anda yakin akan hapus semua data?')">Hapus Semua Data</a> |
+			
+								Opsi: <a href="?menu=uji_rule&act=delete_all" onClick="return confirm('Anda yakin akan hapus semua data?')">Hapus Semua Data</a> |
 								Import data excel: <input name="userfile" type="file">
 								<input name="upload" type="submit" value="import">
 							</form>

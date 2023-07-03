@@ -115,6 +115,7 @@
                                 <th>A6</th>
                                 <th>A7</th>
                                 <th>A8</th>
+                                <th>Hasil</th>
                                 <th>Action</th>
                                 <!-- Tambahkan kolom lainnya sesuai kebutuhan -->
                             </tr>
@@ -133,6 +134,8 @@
                                 echo "<td>" . namaKeputusan($row["a6"]) . "</td>";
                                 echo "<td>" . namaKeputusan($row["a7"]) . "</td>";
                                 echo "<td>" . namaKeputusan($row["a8"]) . "</td>";
+                                echo "<td>" . rules($row["a1"], $row["a2"], $row["a3"], $row["a4"], $row["a5"], $row["a6"], $row["a7"], $row["a8"]) . "</td>";
+                                // echo "<td>" . rules($row["a1"], $row["a2"], $row["a3"], $row["a4"], $row["a5"], $row["a6"], $row["a7"], $row["a8"]) . "</td>";
                                 echo "<td><a href=index.php?page=pohon_keputusan&action=hapus&id=" . $row["id"] . ">Hapus</a></td>";
                                 echo "</tr>";
                             }
