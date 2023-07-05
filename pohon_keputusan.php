@@ -1,8 +1,8 @@
 <!-- Main content -->
-<section class="content" style="background-color: #FF9A00">
+<section class="content" style="background-color: #FFFFF0">
 
     <!-- Default box -->
-    <div class="card" style="background-color: #F6F7D7">
+    <div class="card" style="background-color: #FFFFF0">
         <div class="card-body">
 
             <body class="hold-transition">

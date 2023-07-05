@@ -1,10 +1,10 @@
 <!-- Main content -->
-<section class="content" style="background-color: #F6F7D7">
+<section class="content" style="background-color: #FFFFF0">
 
     <!-- Default box -->
 <div class="container">
 
-    <div class="mt-3 card" style="background-color: #F6F7D7">
+    <div class="mt-3 card" style="background-color: #FFFFF0">
         <div class="mt-5 mb-5  card-body"  >
             
             <body class="hold-transition">

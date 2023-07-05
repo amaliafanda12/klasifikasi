@@ -1,14 +1,15 @@
 <!-- Main content -->
-<section class="content">
+<section class="content" style="background-color: #FFFFF0">
 
 	<!-- Default box -->
-	<div class="card">
+	<div class="card" style="background-color: #FFFFF0">
 		<div class="card-body">
 
 			<body class="hold-transition">
 				<!-- Site wrapper -->
-				<div class="container">
-					<!-- <h1>ini adalah hasil prediksi</h1> -->
+				<div class="container"style="background-color: #FFFFF0">
+                
+					<!-- <h1>ini adalah rules </h1> -->
 					<?php
 					include "config.php";
 					if (isset($_GET['act'])) {
@@ -27,6 +28,7 @@
 							echo "<br><br>";
 							if ($jumlah == 0) {
 					?>
+                    
 								<!-- <p>
 								<form method="post" enctype="multipart/form-data" action="upload.php?data=uji">
 								Opsi: <a href="?menu=uji_rule&act=delete_all" onClick="return confirm('Anda yakin akan hapus semua data?')">Hapus Semua Data</a> |
@@ -47,12 +49,12 @@
 							</form>
 						</p> -->
 
-								<center>
+								<!-- <center>
 									<form method=POST action=''>
 										<input type='submit' name='submit' value='Uji Rules'>
 									</form>
-								</center>
-								Jumlah data uji: <?php echo $jumlah; ?>
+								</center> -->
+								Jumlah rules: <?php echo $jumlah; ?>
 
 								<div class="">
 
@@ -77,9 +79,9 @@
 												<td align='center'><?php echo $row['id']; ?></td>
 												<td><?php
 													echo "IF ";
-													if ($row['parent'] != '') {
-														echo $row['parent'] . " AND ";
-													}
+													
+													echo $row['parent'] ;
+													
 													echo " THEN Keputusan = ".$row['keputusan']; ?>
 												</td>
 											</tr>
@@ -94,7 +96,7 @@
 						}
 					}
 					?>
-				</div>
+				
 			</body>
 
 			<!-- /.card -->

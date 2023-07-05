@@ -2,7 +2,7 @@
 // Konfigurasi database
 $servername = 'localhost';
 $database = 'klasifikasikepuasan';
-$username = 'serius';
+$username = 'root';
 $password = "";
 
 // Membuat koneksi
